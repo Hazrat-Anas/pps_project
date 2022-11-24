@@ -1,0 +1,204 @@
+.back_img{
+    background-image: url('../../../images//Group\ 70.png') ;
+    padding-top: 59px;
+    padding-bottom: 26px; 
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right 25% top;
+
+}
+.back_img__left_img{
+    position: absolute;
+    bottom: -70px;    
+    /* height: 100%; */
+    /* position: absolute; */
+    /* object-fit: fill; */
+    /* bottom: -40px; */
+}
+.list_item__tick_logo{
+    width: 63px;
+    height: 48px;
+}
+.list_item__title{
+    font-size: 22px;
+}
+.btn_order{
+     background: linear-gradient(180deg, #EC3641 0%, #9A0A13 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 93px;
+    padding-left: 93px;
+    white-space: nowrap;
+    border: 0px;
+    font-size: 20px;
+}
+.experts_testimonial{
+    padding-top: 91px;
+    padding-bottom: 83px;
+}
+.experts_testimonial__h1{
+    margin-bottom: 51px;
+}
+.test_card{
+    background-image: url('../../../images/Section6/testBack.png');
+    background-color: #2B2929;
+    padding:14px 18px 14px 18px
+}
+.testimonial_slider{
+    padding-top: 50px;
+}
+.triangle{
+    background-image: url('../../../images//Section6/Union.png');
+    background-position: left  ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70px
+}
+.testi_text{
+font-size: 30px;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media(max-width:1400px){
+    .back_img{
+        padding-top: 49px;
+        background-position: right 20% top;
+    }
+    .list_item__title{
+        font-size: 20px;
+    }
+    .back_img__left_img{
+        
+    }
+    .experts_testimonial{
+        padding-top: 91px;
+        padding-bottom: 83px;
+    }
+    .experts_testimonial__h1{
+        margin-bottom: 51px;
+    }
+    .testi_text{
+        font-size: 28px;
+        }
+        
+}
+@media(max-width:1200px){
+    .back_img{
+        padding-top: 39px;
+    }
+    .list_item__title{
+        font-size: 20px;
+    }
+    .back_img__left_img{
+       
+    }
+    .experts_testimonial{
+        padding-top: 71px;
+        padding-bottom: 64px;
+    }
+    .experts_testimonial__h1{
+        margin-bottom: 41px;
+    }
+    .list_item__tick_logo{
+        width: 50px;
+        height: 38px;
+    }
+    .testi_text{
+        font-size: 26px;
+        }
+}
+@media(max-width:992px){
+    .back_img{
+        background-image: none;
+        background-color: #212121;
+    }
+    .list_item__title{
+        font-size: 20px;
+    }
+    .list_item__tick_logo{
+        width: 50px;
+        height: 38px;
+    }
+   
+    .experts_testimonial{
+        padding-top: 51px;
+        padding-bottom: 46px;
+    }
+    .experts_testimonial__h1{
+        margin-bottom: 31px;
+    }
+    .testi_text{
+        font-size: 24px;
+        }
+}
+@media(max-width:768px){
+    .back_img{
+        background-image: url('');
+        background-color: #212121;
+        padding-top: 24px;
+    }
+    .list_item__tick_logo{
+        transform: scale(1.2);
+    }
+
+    .list_item__title{
+        font-size: 18px;
+    }
+    .back_img__left_img{
+        position: relative;
+        bottom: 0px;
+    }
+    .btn_order{
+        padding:10px 45px 10px 45px
+    }
+    .experts_testimonial{
+        padding-top: 36px;
+        padding-bottom: 32px;
+    }
+    .experts_testimonial__h1{
+        margin-bottom: 20px;
+    }
+    .list_item__tick_logo{
+        width: 40px;
+        height: 30px;
+    }
+    .testi_text{
+        font-size: 22px;
+    }
+}
+@media(max-width:576px){
+    .back_img{
+        padding-top: 16px;
+    }
+    .list_item__title{
+        font-size: 18px;
+    }
+    .experts_testimonial{
+        padding-top: 24px;
+        padding-bottom: 21px;
+    }
+    .experts_testimonial__h1{
+        margin-bottom: 16px;
+    }
+    .list_item__tick_logo{
+        width: 50px;
+        height: 36px;
+    }
+    .testi_text{
+        font-size: 20px;
+    }
+}

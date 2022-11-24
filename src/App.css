@@ -1,0 +1,270 @@
+@font-face {
+  font-family: Extra_light_200;
+  src: url(../public//Source_Sans_Pro/SourceSansPro-ExtraLight.ttf);
+}
+@font-face {
+  font-family: Extra_light_Italic;
+  src: url(../public//Source_Sans_Pro/SourceSansPro-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: Light_300;
+  src: url(../public//Source_Sans_Pro/SourceSansPro-Light.ttf);
+}
+@font-face {
+  font-family: Light_Italic_300;
+  src: url(../public//Source_Sans_Pro/SourceSansPro-LightItalic.ttf);
+}
+@font-face {
+  font-family: Regular_400;
+  src: url(../public//Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+@font-face {
+  font-family: Regular_italic_400;
+  src: url(../public//Source_Sans_Pro/SourceSansPro-Italic.ttf);
+}
+@font-face {
+  font-family: Semi_bold_600;
+  src: url(../public//Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+}
+@font-face {
+  font-family: Semi_bold_Italic;
+  src: url(../public//Source_Sans_Pro/SourceSansPro-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: Bold_700;
+  src: url(../public//Source_Sans_Pro/SourceSansPro-Bold.ttf);
+}
+@font-face {
+  font-family: Bold_italic;
+  src: url(../public//Source_Sans_Pro/SourceSansPro-BoldItalic.ttf);
+}
+@font-face {
+  font-family: Black_900;
+  src: url(../public//Source_Sans_Pro/SourceSansPro-Black.ttf);
+}
+@font-face {
+  font-family: Black_italic_900;
+  src: url(../public//Source_Sans_Pro/SourceSansPro-BlackItalic.ttf);
+}
+.font-200{
+  font-family: Extra_light_200;
+}
+.font-300{
+  font-family:Light_300 ;
+}
+.font-400{
+  font-family: Regular_400;
+}
+.font-600{
+  font-family: Semi_bold_600;
+}
+.font-700{
+  font-family: Bold_700;
+  font-weight: 700;
+}
+.font-900{
+  font-family: Black_900
+}
+
+.font-200-italic{
+  font-family: Extra_light_Italic;
+}
+.font-300-italic{
+  font-family:Light_Italic_300 ;
+}
+.font-400-italic{
+  font-family:Regular_italic_400;
+}
+.font-600-italic{
+  font-family: Semi_bold_italic;
+}
+.font-700-italic{
+  font-family: Bold_italic;
+}
+.font-900-italic{
+  font-family: Black_italic_900;
+}
+:root {
+  --primaryBg: #EC3641;
+  --primaryColor: #ffffff;
+  --primaryFont:'Source Sans Pro'
+  
+}
+.text-py{
+  color: #EC3231;
+}
+.bg-py{
+  background-color: #EC3641;
+}
+.secondIngredient{
+  background-image: url('../src/images/Group\ 20.png');
+  width:477px ;
+  height: auto;
+  background-size:'cover'
+}
+.h1{
+  font-size: 50px;
+}
+.img-div{
+  width: 100%;
+  height: 100%;
+  
+  margin-top: 20px;
+}
+.img-box{
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.img-container{
+  background-image: url('../src/images/Group\ 24.png');
+  padding: 30px;
+}
+.logo-img{
+ height: 200px;
+}
+.both-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnPrimary{
+  background-color: var(--primaryBg);
+  border:0px;
+  
+  text-decoration: none;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+}
+.w-full{
+  width: 100%;
+}
+.btnPrimary:active{
+  transform: scale(0.88);
+            /* Scaling button to 0.98 to its original size */
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+            /* Lowering the shadow */
+}
+.btnPrimary:hover{
+  transform: scale(1.05);
+  
+}
+.btnDanger{
+  background-color: white;
+  border:0px;
+  width: 100%;
+  text-decoration: none;
+  border:1px solid red;
+  padding: 12px 40px;
+  font-size: 16px;
+  color: red;
+  border-radius: 5px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+}
+.btnDanger:active{
+  transform: scale(0.88);
+            /* Scaling button to 0.98 to its original size */
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+            /* Lowering the shadow */
+}
+.btnDanger:hover{
+  transform: scale(1.05);
+  
+}
+button.rec-dot{
+  border:1px solid white;
+  /* box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.5); */
+}
+
+button.rec-dot_active{
+  background-color: var(--primaryBg);
+  box-shadow: 0 0 1px 3px rgba(235, 16, 16, 0.5);
+  border:0px solid white;
+}
+.footer-link{
+  color:white;
+  
+}
+a:hover{
+  color: #EC3641;
+}
+.font-15{
+  font-size: 12px;
+}
+.bg-overlay-black{
+  background-color: black;
+  z-index: -7;
+  opacity: 1;
+  color:rgba(255, 255, 255, 1)
+}
+.rec-item-wrapper{
+  height: 100%;
+}
+.accordion-button{
+  background-color: #212121 !important;
+  color: #ffffff !important;
+  font-family: Regular_700;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #05C46B !important;
+    color:black !important;
+    text-decoration: none !important;
+     border: hidden !important;
+       border-color: #FFF !important;
+    box-shadow: 0px !important;
+    font-family: Bold_700;
+    outline: brown 2px;
+    
+}
+.accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active .accordion-button:focus  {
+  background-color: #05C46B !important;
+    color:black !important;
+    text-decoration: none !important;
+     border: hidden !important;
+       border-color: #FFF !important;
+    box-shadow: 0px !important;
+    font-family: Bold_700;
+    
+}
+
+.accordion-button.collapsed{
+  font-family: Bold_700;
+}
+.accordion-button.collapsed::after { 
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important ;
+
+}
+.upperAccordian .accordion-item{
+  border:1px solid #05C46B !important;
+}
+.table-months tr{
+  color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-family: Regular_400;
+  
+}
+.table-months tr:nth-child(even) {background-color:#313131;}
+.table-months td:nth-child(1){
+  text-align: center;
+}
+.table-months th{
+  font-family: Bold_700;
+}
+.rec-carousel{
+  display: flex;
+  justify-content: space-between;
+}

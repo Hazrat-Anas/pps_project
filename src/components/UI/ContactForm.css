@@ -1,0 +1,22 @@
+.contactForm .input {
+  border: 1px solid black;
+}
+
+.contactForm .input:focus {
+  outline: none !important;
+  border-color: #ec3641;
+  -webkit-box-shadow: 0 0 3px #ec3641;
+          box-shadow: 0 0 3px #ec3641;
+}
+
+.paymentForm .input {
+  border: 1px solid black;
+}
+
+.paymentForm .input:focus {
+  outline: none !important;
+  border-color: #ec3641;
+  -webkit-box-shadow: 0 0 3px #ec3641;
+          box-shadow: 0 0 3px #ec3641;
+}
+/*# sourceMappingURL=ContactForm.css.map */

@@ -1,0 +1,14 @@
+.ratingLogo{
+  position: absolute;
+  top:-5px;
+  right:0px;
+  z-index:1
+}
+.imageFooter{
+    background-image: url('../../../src/images/imageFooter.png');
+    background-size: 100% 100%;
+    background-position:bottom left;
+    
+    background-repeat: no-repeat;
+    width: 100%;
+}

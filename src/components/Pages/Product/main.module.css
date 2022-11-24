@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Bold_700;
+    src: url(../../../../public//Source_Sans_Pro/SourceSansPro-Bold.ttf);
+  }
+.h1{
+    font-size: 40px;  
+    font-family: Bold_700;
+}
+
+.content{
+    font-size: 22px;
+    text-align: justify;
+}
+@media(max-width:1200px) {
+    .content{
+        font-size: 20px;
+        text-align: justify;
+    }   
+    .h1{
+        font-size: 40px;  
+    }
+    
+}
+@media(max-width:992px) {
+    .content{
+        font-size: 18px;
+        text-align: justify;
+    } 
+    .h1{
+        font-size: 30px;  
+    }
+    
+}
+@media(max-width:768px) {
+    .content{
+        font-size: 18px;
+        text-align: justify;
+    }  
+    .h1{
+        font-size: 26px;  
+    }
+    
+}
+@media(max-width:576px){
+    .content{
+        font-size: 18px;
+        text-align: justify;
+    }   
+    .h1{
+        font-size: 22px;  
+    }
+    
+}

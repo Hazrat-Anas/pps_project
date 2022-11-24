@@ -1,0 +1,22 @@
+$primary-color: rgba(236, 54, 65, 1);
+.contactForm {
+
+    .input{
+        border: 1px solid black;
+    }
+    .input:focus{
+        outline: none !important;
+        border-color: $primary-color;
+        box-shadow: 0 0 3px $primary-color
+    }
+}
+.paymentForm{
+    .input{
+        border: 1px solid black;
+    }
+    .input:focus{
+        outline: none !important;
+        border-color: $primary-color;
+        box-shadow: 0 0 3px $primary-color
+    }
+}

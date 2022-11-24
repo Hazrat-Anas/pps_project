@@ -1,0 +1,111 @@
+.back_img{
+    background-image: url('../../../images//Section6/image\ 8.png');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .9);
+    background-blend-mode: luminosity;
+    padding-top: 109px;
+    padding-bottom: 147px;
+}
+.img_arrow{
+    /* position: absolute; */
+    width: 100%;
+    object-fit: fill;
+}
+.img_only{
+    width: 30%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+.last_back{
+    background-image: url('../../../images/Group\ 24.png');
+    background-color: #212121;
+    transform: scaleY(.8);
+    margin-bottom: 142px;
+}
+.white_section{
+    padding-top: 80px;
+    padding-bottom: 84px;
+}
+.last_left_img{
+        /* position: absolute;  */
+           height: 120%;
+           width: 80%;
+           transform: translateY(-50px);
+           /* background-color: black; */
+}
+
+@media(max-width:1440px){
+    .back_img{
+        background-image: url('../../../images//Section6/image\ 8.png');
+        padding-top: 109px;
+        padding-bottom: 147px;
+    }   
+}
+@media(max-width:1200px){
+
+}
+@media(max-width:992px){
+    .back_img{
+        background-image: url('../../../images//Section6/image\ 8.png');
+        padding-top: 80px;
+        padding-bottom: 107px;
+    }
+    .white_section{
+        padding-top: 50px;
+        padding-bottom: 54px;
+    }
+    .last_back{
+        background-image: url('../../../images/Group\ 24.png');
+        background-color: #212121;
+        padding-bottom: 20px;
+        /* transform: scaleY(.6); */
+    }
+    .last_left_img{
+        /* position: absolute;  */
+           height: 120%;
+           width: 100%;
+           transform: translateY(-50px);
+           /* background-color: black; */
+}
+.last_back{
+    margin-bottom: 100px;
+    
+}
+}
+@media(max-width:768px){
+    .back_img{
+        background-image: url('../../../images//Section6/image\ 8.png');
+        padding-top: 40px;
+        padding-bottom: 53px;
+    }
+    .white_section{
+        padding-top: 36px;
+        padding-bottom: 40px;
+    }
+    .last_left_img{
+        
+        height: auto;
+        max-width: 50%;
+        /* object-fit: fill; */
+        transform: translateY(0px);
+        }
+        .last_back{
+            margin-bottom: 36px;
+            transform: scaleY(1);
+        }
+}
+@media(max-width:576px){
+    .back_img{
+        background-image: url('../../../images//Section6/image\ 8.png');
+        padding-top: 24px;
+        padding-bottom: 32px;
+    }
+    .white_section{
+        padding-top: 20px;
+        padding-bottom: 24px;
+    }
+    .last_back{
+        margin-bottom: 24px;
+    }
+}

@@ -1,0 +1,78 @@
+
+.header_heading_text{
+ font-size: 30px;  
+}
+.mainHeader{
+    /* background-image: url('../../../images/ProductHeader.png'); */
+    /* padding-bottom: 150px; */
+    background-repeat: no-repeat;
+    background-color: #212121;
+    
+}
+input[type='radio']{
+    /* appearance: none; */
+    transition: 0.3s all linear;
+    border:1px solid #05C46B;
+    box-shadow: none;
+
+}
+input[type='radio']:checked {
+    border: 2px solid #05C46B;
+    background-color: #05C46B ;
+    box-shadow: none;
+    font-weight: bold
+  }
+  input[type='radio']:checked+label {
+    color: #05C46B;
+  }
+.legend{
+      font-size: 18px;
+      margin-bottom: 0px;
+  }
+.submitButton{
+    background-color: #04924F;
+    border:0px;
+    padding: 5px 20px 5px 20px;
+}
+.formCard{
+    border: 8px solid #04924F;
+    /* position: absolute; */
+  
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    padding-bottom: 80px;
+    margin-bottom: 1.5rem;
+    /* background-image: url('../../../images/cardimage.png');
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 0px; */
+    /* background-size: cover; */
+    /* background-color: transparent; */
+    
+}
+
+@media(max-width:992px){
+    .header_heading_text{
+        font-size: 25px;  
+       }
+}
+
+@media(max-width:768px){
+   
+}
+@media(max-width:400px){
+    .header_heading_text{
+        font-size: 24px;  
+       }
+}
+
+@media(max-width:375px){
+    .header_heading_text{
+        font-size: 22px;  
+       }
+}
+@media(max-width:320px){
+    .header_heading_text{
+        font-size: 18px;  
+       }
+}
+

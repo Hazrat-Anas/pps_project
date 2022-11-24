@@ -1,0 +1,58 @@
+.backImg{
+    /* background-image: url('../../../images//Group53.png'); */
+    background-color: #212121;
+}
+.chart{
+background-color: #212121 ;
+padding:15px;
+}
+th,td{
+    border: 2px solid rgba(255, 255, 255, 1) !important;
+}
+
+th,td{
+    padding: 10px
+}
+.firstCell{
+    border:0px !important;
+    font-size: 22px;  
+}
+.accordianBodyBack{
+    background-image: url('../../../images//Rectangle\ 133.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.accordianrightImg{
+    width: 80%;
+}
+@media(max-width:1200px) {
+    .backImg{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    
+}
+@media(max-width:992px) {
+    .backImg{
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    
+}
+@media(max-width:768px) {
+    .accordianrightImg{
+        width: 30%;
+    }
+    .backImg{
+        padding-top: 24px;
+        padding-bottom: 50px;
+    }
+    
+}
+@media(max-width:576px){
+ 
+    .backImg{
+        padding-top: 24px;
+        padding-bottom: 36px;
+    }    
+}
