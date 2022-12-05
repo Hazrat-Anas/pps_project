@@ -1,4 +1,4 @@
-import {useState,useEffect} from 'react'
+import { useState, useEffect } from 'react'
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../src/components/Pages/Home/Home'
@@ -7,30 +7,30 @@ import Cart from '../src/components/Pages/Cart/Cart'
 import Product from './components/Pages/Product/Product'
 function App() {
   const [cartItem, setcartItem] = useState(0)
-  const itemHandler=(e)=>{
-    if(e==1){
-      setcartItem(cartItem+1)
+  const itemHandler = (e) => {
+    if (e == 1) {
+      setcartItem(cartItem + 1)
     }
     else
-    setcartItem(cartItem-1)
+      setcartItem(cartItem - 1)
   }
-useEffect(() => {
+  useEffect(() => {
     let list = localStorage.getItem('OrderedList')
     if (list) {
-      let listjson=JSON.parse(list)
+      let listjson = JSON.parse(list)
       setcartItem(listjson.length)
-   
+
     }
-}, [cartItem])
+  }, [cartItem])
 
   return (
-    <BrowserRouter basename='/'>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        
-        <Route path="/" element={<Product cartItem={cartItem} itemHandler={itemHandler} />}   />
-        <Route path="/home" element={<Home/>} />
-        <Route path="/contact" element={<Contact cartItem={cartItem} itemHandler={itemHandler} />}/>
-        <Route path="/cart" element={<Cart/>} />
+
+        <Route path="/" element={<Product cartItem={cartItem} itemHandler={itemHandler} />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/contact" element={<Contact cartItem={cartItem} itemHandler={itemHandler} />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </BrowserRouter>
   );
