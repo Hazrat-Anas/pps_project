@@ -22,7 +22,7 @@ function App() {
 
     }
   }, [cartItem])
-
+  console.log("sd")
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
