@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hazrat-Anas/pps_project/static/css/main.5300d9fb.css",
-    "main.js": "/Hazrat-Anas/pps_project/static/js/main.2e746149.js",
+    "main.js": "/Hazrat-Anas/pps_project/static/js/main.4f645d52.js",
     "static/js/787.a453ccac.chunk.js": "/Hazrat-Anas/pps_project/static/js/787.a453ccac.chunk.js",
     "static/media/Group58.png": "/Hazrat-Anas/pps_project/static/media/Group58.e8cf79d05e9b10e34aa4.png",
     "static/media/Group 70.png": "/Hazrat-Anas/pps_project/static/media/Group 70.5984372625aa031dfdce.png",
@@ -65,11 +65,11 @@
     "index.html": "/Hazrat-Anas/pps_project/index.html",
     "static/media/ri_capsule-fill.svg": "/Hazrat-Anas/pps_project/static/media/ri_capsule-fill.d40a770c8a20f1022f4a1bc018f72394.svg",
     "main.5300d9fb.css.map": "/Hazrat-Anas/pps_project/static/css/main.5300d9fb.css.map",
-    "main.2e746149.js.map": "/Hazrat-Anas/pps_project/static/js/main.2e746149.js.map",
+    "main.4f645d52.js.map": "/Hazrat-Anas/pps_project/static/js/main.4f645d52.js.map",
     "787.a453ccac.chunk.js.map": "/Hazrat-Anas/pps_project/static/js/787.a453ccac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5300d9fb.css",
-    "static/js/main.2e746149.js"
+    "static/js/main.4f645d52.js"
   ]
 }
